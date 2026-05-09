@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Mother's Day 💖</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(135deg,#ffe6f0,#fff0f5,#ffe4e1);
+      overflow:hidden;
+      padding:20px;
+      position:relative;
+    }
+
+    .container{
+      background:rgba(255,255,255,0.95);
+      width:90%;
+      max-width:900px;
+      padding:45px 35px;
+      border-radius:25px;
+      text-align:center;
+      box-shadow:0 15px 40px rgba(0,0,0,0.15);
+      animation:fadeIn 1.5s ease;
+      position:relative;
+      z-index:2;
+    }
+
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+        transform:translateY(30px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    h1{
+      font-family:'Great Vibes',cursive;
+      font-size:4rem;
+      color:#ff4f81;
+      margin-bottom:10px;
+    }
+
+    h2{
+      color:#666;
+      font-weight:500;
+      margin-bottom:25px;
+    }
+
+    p{
+      font-size:1.05rem;
+      line-height:1.9;
+      color:#444;
+      margin:18px 0;
+    }
+
+    .highlight{
+      color:#ff4f81;
+      font-weight:600;
+    }
+
+    .gallery{
+      display:flex;
+      justify-content:center;
+      gap:18px;
+      flex-wrap:wrap;
+      margin:30px 0;
+    }
+
+    .gallery img{
+      width:220px;
+      height:260px;
+      object-fit:cover;
+      border-radius:20px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.15);
+      transition:0.4s;
+    }
+
+    .gallery img:hover{
+      transform:scale(1.05);
+    }
+
+    .heart{
+      position:absolute;
+      color:#ff5c8a;
+      font-size:20px;
+      animation:float 8s linear infinite;
+      opacity:0.7;
+      z-index:1;
+    }
+
+    @keyframes float{
+      0%{
+        transform:translateY(100vh) scale(0.5);
+        opacity:0;
+      }
+
+      10%{
+        opacity:0.7;
+      }
+
+      100%{
+        transform:translateY(-120vh) scale(1.2);
+        opacity:0;
+      }
+    }
+
+    .music{
+      margin-top:30px;
+    }
+
+    audio{
+      width:100%;
+      margin-top:10px;
+    }
+
+    .footer{
+      margin-top:30px;
+      color:#888;
+      font-size:0.9rem;
+    }
+
+    .heart-icon{
+      font-size:2rem;
+      margin-top:10px;
+      animation:beat 1.2s infinite;
+    }
+
+    @keyframes beat{
+      0%{transform:scale(1);}
+      25%{transform:scale(1.15);}
+      50%{transform:scale(1);}
+      75%{transform:scale(1.15);}
+      100%{transform:scale(1);}
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="heart" style="left:5%; animation-delay:0s;">💖</div>
+  <div class="heart" style="left:15%; animation-delay:2s;">💕</div>
+  <div class="heart" style="left:28%; animation-delay:4s;">💗</div>
+  <div class="heart" style="left:40%; animation-delay:1s;">💞</div>
+  <div class="heart" style="left:52%; animation-delay:5s;">💖</div>
+  <div class="heart" style="left:66%; animation-delay:3s;">💕</div>
+  <div class="heart" style="left:78%; animation-delay:6s;">💗</div>
+  <div class="heart" style="left:90%; animation-delay:2s;">💞</div>
+
+  <div class="container">
+
+    <h1>Happy Mother's Day 💖</h1>
+
+    <h2>To the most beautiful soul in my life ✨</h2>
+
+    <div class="gallery">
+      <img src="mom1.jpg" alt="Mom Picture 1">
+      <img src="mom2.jpg" alt="Mom Picture 2">
+      <img src="mom3.jpg" alt="Mom Picture 3">
+    </div>
+
+    <p>
+      Dear Maa,<br><br>
+
+      Thank you for every sacrifice you made silently, every prayer you whispered for me,
+      every sleepless night, every warm hug, and every little thing you do that often goes unnoticed.
+    </p>
+
+    <p>
+      You are my <span class="highlight">home, comfort, strength, and safest place</span>.
+      No matter how difficult life gets, your love always gives me courage.
+    </p>
+
+    <p>
+      I may not say it every day, but I am endlessly grateful for you.
+      Your care, your patience, your love, and your support mean more to me than words can ever express.
+    </p>
+
+    <p class="highlight">
+      Thank you for being my mother, my guide, and my forever best friend 🤍
+    </p>
+
+    <div class="heart-icon">🫀</div>
+<div class="footer">
+      Made with infinite love 💐
+    </div>
+
+  </div>
+
+</body>
+</html>
